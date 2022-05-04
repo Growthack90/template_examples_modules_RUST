@@ -1,4 +1,5 @@
 mod home;
+mod articoli;
 
 fn funzione_principale() {
     println!("funzione principale");
@@ -21,6 +22,9 @@ fn main() {
 /* per runnare questa funzione, mettere "pub" a riga 1 nel file "mod.rs"*/ 
     // home::inaccessible::public_function();
 
+    articoli::funzione_articoli();
+
+    articoli::articolirust::funzione_articoli_rust();
 }
 
 
